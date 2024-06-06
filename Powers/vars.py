@@ -11,11 +11,11 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
-    API_ID = int(config("API_ID", default="123"))
-    API_HASH = config("API_HASH", default=None)
+    BOT_TOKEN = config("BOT_TOKEN", default="6392016724:AAGVd5l1161SSymqZQLTckUfMOpEGLh67Y8")
+    API_ID = int(config("API_ID", default="27201175"))
+    API_HASH = config("API_HASH", default="f9fcd5bc0af204efdb06219b5c668fc1")
     OWNER_ID = int(config("OWNER_ID", default=6079943111))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP"))
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", "-1001603822916"))
     DEV_USERS = [
         int(i)
         for i in config(
@@ -39,9 +39,9 @@ class Config:
     ]
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
     AuDD_API = config("AuDD_API",default=None)
-    RMBG_API = config("RMBG_API",default=None)
-    DB_URI = config("DB_URI", default="")
-    DB_NAME = config("DB_NAME", default="gojo_satarou")
+    RMBG_API = config("RMBG_API",default="iXkrY3xWBKvi6dJcfCLrRxp5")
+    DB_URI = config("DB_URI", default="mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = config("DB_NAME", default="zara")
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
@@ -49,10 +49,10 @@ class Config:
     SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="AloneXBots")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
-    BOT_USERNAME = ""
-    BOT_ID = ""
-    BOT_NAME = ""
-    owner_username = ""
+    BOT_USERNAME = "AloneXRobot"
+    BOT_ID = "6392016724"
+    BOT_NAME = "Alone"
+    owner_username = "ALONE_WAS_BOT"
 
 
 class Development:
@@ -60,23 +60,23 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
-    API_ID = 12345  # Your APP_ID from Telegram
-    API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
+    BOT_TOKEN = "6392016724:AAGVd5l1161SSymqZQLTckUfMOpEGLh67Y8"
+    API_ID = 17596251  # Your APP_ID from Telegram
+    API_HASH = "e58343b4c0193e293e391daf97603fcd"  # Your APP_HASH from Telegram
     OWNER_ID = 6079943111  # Your telegram user id defult to mine
     MESSAGE_DUMP = -1001603822916  # Your Private Group ID for logs
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
-    DB_URI = ""  # Your mongo DB URI
-    DB_NAME = ""  # Your DB name
+    DB_URI = "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
+    DB_NAME = "zara"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = ""
-    RMBG_API = ""
+    RMBG_API = "iXkrY3xWBKvi6dJcfCLrRxp5"
     PREFIX_HANDLER = ["!", "/", "."]
     SUPPORT_GROUP = "SUPPORT_GROUP"
     SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
     VERSION = "VERSION"
     TIME_ZONE = 'Asia/Kolkata'
-    BDB_URI = ""
+    BDB_URI = "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority"
     WORKERS = 8
