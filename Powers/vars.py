@@ -64,4 +64,3 @@ class Development:
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority" #If you want your birthday module to work pass mongo db uri u can use same URI but I prefer passing a new one
     WORKERS = 8
-GitHub Discord Cr
