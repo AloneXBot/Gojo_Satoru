@@ -20,8 +20,8 @@ class Config:
     DEV_USERS = [6079943111]
     SUDO_USERS = [6079943111]
     WHITELIST_USERS = [12314134]
-    DB_URI = "mongodb+srv://User:testdb.m14k3kx.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
-    DB_NAME = "MYDB"  # Your DB name
+    DB_URI = "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
+    DB_NAME = "zara"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = "" # Your genius API token or leave it as it is
     RMBG_API = "iXkrY3xWBKvi6dJcfCLrRxp5" # Your rmbg API token or leave it as it is
@@ -52,8 +52,8 @@ class Development:
     DEV_USERS = [6079943111]
     SUDO_USERS = [6079943111]
     WHITELIST_USERS = [12314134]
-    DB_URI = "mongodb+srv://User:testdb.m14k3kx.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
-    DB_NAME = "MYDB"  # Your DB name
+    DB_URI = "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
+    DB_NAME = "zara"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = "" # Your genius API token or leave it as it is
     AuDD_API = "6ecx4OFG0nlUMqAi9OXQER"
