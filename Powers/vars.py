@@ -38,7 +38,7 @@ class Config:
         ).split(None)
     ]
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
-    AuDD_API = config("AuDD_API",default=None)
+    AuDD_API = config("AuDD_API",default="6ecx4OFG0nlUMqAi9OXQER")
     RMBG_API = config("RMBG_API",default="iXkrY3xWBKvi6dJcfCLrRxp5")
     DB_URI = config("DB_URI", default="mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
     DB_NAME = config("DB_NAME", default="zara")
