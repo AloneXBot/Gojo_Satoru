@@ -24,7 +24,6 @@ class Config:
     DB_NAME = "MYDB"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = "" # Your genius API token or leave it as it is
-    AuDD_API = "6ecx4OFG0nlUMqAi9OXQER"
     RMBG_API = "iXkrY3xWBKvi6dJcfCLrRxp5" # Your rmbg API token or leave it as it is
     PREFIX_HANDLER = ["!", "/","$"]
     SUPPORT_GROUP = "AlonesHeaven" #Username without @
@@ -57,6 +56,7 @@ class Development:
     DB_NAME = "MYDB"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = "" # Your genius API token or leave it as it is
+    AuDD_API = "6ecx4OFG0nlUMqAi9OXQER"
     RMBG_API = "iXkrY3xWBKvi6dJcfCLrRxp5" # Your rmbg API token or leave it as it is
     PREFIX_HANDLER = ["!", "/","$"]
     SUPPORT_GROUP = "AlonesHeaven" #Username without @
